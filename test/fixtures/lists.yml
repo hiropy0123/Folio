@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ID: 1
+  authority: 学生
+  l_name: 名前
+  f_name: なまえ
+  username: UserName
+  mail: abc@gmail.com
+  registered: 2017-11-23
+  update: 2017-11-23
+  payment: false
+  memo: 備考欄
+  zip: 463-0001
+  pref: 愛知県
+  city: 名古屋市
+  address: 守山区
+  country: 日本
+  tel: 090-1234-5678
+
+two:
+  ID: 2
+  authority: MyText
+  l_name: MyText
+  f_name: MyText
+  username: MyText
+  mail: MyText
+  registered: 2017-11-23
+  update: 2017-11-23
+  payment: false
+  memo: MyText
+  zip: MyText
+  pref: MyText
+  city: MyText
+  address: MyText
+  country: MyText
+  tel: MyText
