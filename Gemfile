@@ -9,13 +9,24 @@ end
 gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
-gem 'bootstrap-sass', '~> 3.3.7'
-gem 'sass-rails', '~> 5.0'
-gem 'jquery-rails'
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'popper_js', '~> 1.12.3'
+gem 'sass',  '>= 3.5.2'
+# gem 'sass-rails', '~> 5.0'
+gem 'jquery-rails', '>= 3.1.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'json', '>= 1.8.1'
+gem 'actionpack', '>= 4.1.5'
+gem 'activesupport', '>= 4.1.5'
+gem 'minitest', '~> 5.10.3'
+gem 'minitest-reporters', '~> 1.0.5'
+gem 'poltergeist'
+gem 'slim-rails'
+gem 'sprockets-rails', '>= 2.3.2'
+gem 'term-ansicolor'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
